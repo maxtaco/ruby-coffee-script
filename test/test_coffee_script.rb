@@ -1,4 +1,4 @@
-require 'coffee_script'
+require 'iced_coffee_script'
 require 'test/unit'
 require 'stringio'
 

@@ -1,7 +1,7 @@
 require 'execjs'
-require 'coffee_script/source'
+require 'iced_coffee_script/source'
 
-module CoffeeScript
+module IcedCoffeeScript
   EngineError      = ExecJS::RuntimeError
   CompilationError = ExecJS::ProgramError
 
@@ -20,7 +20,7 @@ module CoffeeScript
     end
 
     def self.version
-      @version ||= contents[/CoffeeScript Compiler v([\d.]+)/, 1]
+      @version ||= contents[/IcedCoffeeScript Compiler v([\d.]+)/, 1]
     end
 
     def self.bare_option

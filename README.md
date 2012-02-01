@@ -1,15 +1,15 @@
-Ruby CoffeeScript
+Ruby IcedCoffeeScript
 =================
 
-Ruby CoffeeScript is a bridge to the official CoffeeScript compiler.
+Ruby IcedCoffeeScript is a bridge to the official CoffeeScript compiler.
 
-    CoffeeScript.compile File.read("script.coffee")
+    IcedCoffeeScript.compile File.read("script.coffee")
 
 
 Installation
 ------------
 
-    gem install coffee-script
+    gem install iced-coffee-script
 
 *Note: This compiler library has replaced the original CoffeeScript
  compiler that was written in Ruby.*
@@ -20,10 +20,10 @@ Dependencies
 
 This library depends on the `coffee-script-source` gem which is
 updated any time a new version of CoffeeScript is released. (The
-`coffee-script-source` gem's version number is synced with each
-official CoffeeScript release.) This way you can build against
-different versions of CoffeeScript by requiring the correct version of
-the `coffee-script-source` gem.
+`iced-coffee-script-source` gem's version number is synced with each
+official IcedCoffeeScript release.) This way you can build against
+different versions of IcedCoffeeScript by requiring the correct version of
+the `iced-coffee-script-source` gem.
 
 In addition, you can use this library with unreleased versions of
 CoffeeScript by setting the `COFFEESCRIPT_SOURCE_PATH` environment

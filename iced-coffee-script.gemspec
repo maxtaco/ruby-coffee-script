@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   EOS
 
   s.files = [
-    'lib/iced_coffee-script.rb',
+    'lib/iced-coffee-script.rb',
     'lib/iced_coffee_script.rb',
     'LICENSE',
     'README.md'
